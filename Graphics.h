@@ -2,7 +2,7 @@
 #define GRAPHICS_H
 
 // set the drawing screen dimensions and position
-#define WINDOW_HEIGHT   720
+#define WINDOW_HEIGHT   800
 #define WINDOW_WIDTH    1280
 #define WINDOW_X        100
 #define WINDOW_Y        150
@@ -31,8 +31,8 @@
 
 // initialization routine
 void graphicsSetup(int argc, char **argv);
-void drawScene(void);
-void clearWindow(void);
+void drawScene();
+void clearWindow();
 
 // set line or fill color
 void setColor(double red, double green, double blue);
