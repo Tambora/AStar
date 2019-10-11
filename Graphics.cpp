@@ -29,7 +29,7 @@ void graphicsSetup(int argc, char **argv) {
 	 glutInitWindowPosition(WINDOW_X,WINDOW_Y);
 	 glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 	 glutCreateWindow("AStar Pathfinding");
-	 glClearColor(DARKONE,0.0);
+	 glClearColor(BLACK,0.0);
 	 gluOrtho2D(0,WINDOW_WIDTH, 0,WINDOW_HEIGHT);
      glutKeyboardFunc(quitKey);
   }

@@ -23,6 +23,7 @@
 #define BROWN           0.5,0.25,0.0
 
 // Theme
+#define DARKZERO     0.027,  0.0,  0.11
 #define DARKONE     0.047,  0.066,  0.152
 #define DARKTWO     0.25,   0.004,  0.199
 #define DARKTHREE   0.334,  0,      0.1875
